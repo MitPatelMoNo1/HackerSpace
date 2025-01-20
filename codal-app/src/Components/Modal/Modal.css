@@ -1,0 +1,135 @@
+/* Modal backdrop */
+.modal-backdrop {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(126, 122, 122, 0.4);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* backdrop-filter: blur(10px); */
+  backdrop-filter: sepia(51%) brightness(131%) opacity (50px);
+}
+
+/* Modal content container */
+.modal-content {
+  background-color: #000000;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 540px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 10px;
+}
+
+/* Close button */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #657786;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.modal-close:hover {
+  color: #17a8bb;
+  
+}
+
+/* Modal header */
+.modal-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: left;
+  text-indent: 42px;
+}
+
+.modal-content h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: left;
+  text-indent: 42px;
+}
+
+/* Form styles */
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-content form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #657786;
+}
+
+.modal-content form input {
+  width: 80%;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #acaeaf;
+  border-radius: 4px;
+  background-color: #000000;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.modal-content form input:focus {
+  border-color: #1da1f2;
+}
+
+/* Date of birth section */
+.modal-content form h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+  text-indent: 42px;
+}
+
+.modal-content form p {
+  font-size: 14px;
+  color: #657786;
+  margin-bottom: 10px;
+  text-align:center;
+  text-align: left;
+  padding-left: 42px;
+}
+
+/* Submit button */
+.modal-content form button {
+  background-color: #17a8bb;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 300px;
+  align-self: center;
+  margin-top: 8px;
+}
+
+.modal-content form button:hover {
+  background-color: #064268;
+}
+
+
