@@ -1,8 +1,7 @@
 .signup-container{
   display: flex;
-  width: 100vh;
   height: 30vh;
-  margin-left: 62vh;
+  margin-left: 32em;
   margin-top: 75px;
   align-items: center;
   justify-content: center;
@@ -20,8 +19,8 @@
   cursor: pointer;
   transition: background-color 0.2s;
   justify-content: right;
-  margin-right: 80px;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .signUp:hover {
@@ -30,9 +29,8 @@
 
 .signin-container{
   display: flex;
-  width: 100vh;
   height: 100px;
-  margin-left: 62vh;
+  margin-left: 32em;
   margin-bottom: 55px;
   align-items: center;
   justify-content: center;
@@ -52,8 +50,8 @@
   cursor: pointer;
   transition: background-color 0.2s;
   justify-content: right;
-  margin-right: 80px;
-  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .signIn:hover {
@@ -61,7 +59,26 @@
 }
 
 
-.container span{
-display: block;
-margin-left: 418px;
+.container span h4{
+display: flex;
+margin-left: 33em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.big-con{
+  display: flex;
+}
+
+.logo-con{
+  display: flex;
+  flex-direction: column;
+  font-size: 90px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  background:#000000;
+  color:#fff;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #dbcfcf;
+  text-align:center;
 }

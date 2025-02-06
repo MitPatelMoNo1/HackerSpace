@@ -39,6 +39,7 @@
   color: #657786;
   cursor: pointer;
   transition: color 0.2s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .modal-close:hover {
@@ -126,6 +127,8 @@
   width: 300px;
   align-self: center;
   margin-top: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .modal-content form button:hover {

@@ -13,20 +13,30 @@ const LoginSignup = () => {
   const handleCloseModalIn = () => setIsModalOpenIn(false);
   return (
     <div className="container">
-      <div className="signup-container">
-        <button onClick={handleOpenModal} className="signUp">
-          Create Account
-        </button>
+      <div className="big-con">
+        <div className="logo-con">
+          <span>C</span>
+          <span>O</span>
+          <span>D</span>
+          <span>A</span>
+          <span>L</span>
+        </div>
+        <div className="sign-con">
+          <div className="signup-container">
+            <button onClick={handleOpenModal} className="signUp">
+              Create Account
+            </button>
+          </div>
+          <span>
+            <h4>Already have an account?</h4>
+          </span>
+          <div className="signin-container">
+            <button onClick={handleOpenModalIn} className="signIn">
+              Sign In
+            </button>
+          </div>
+        </div>
       </div>
-      <span>
-        <h4>Already have an account?</h4>
-      </span>
-      <div className="signin-container">
-        <button onClick={handleOpenModalIn} className="signIn">
-          Sign In
-        </button>
-      </div>
-
       <div>
         <Modal show={isModalOpen} onClose={handleCloseModal}>
           <h1>CODAL</h1>
